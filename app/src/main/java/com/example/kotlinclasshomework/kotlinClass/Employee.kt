@@ -40,3 +40,19 @@ class Teamlead : Employee() {
 }
 
 // TODO здесь можно создать новый класс, который будет наследоваться от класса Employee. Не забудьте переопределить методы haveLunch() и goHome()
+
+//добавленный мною блок отсюда
+class DataSciense:Employee() {
+    override fun haveLunch() {
+        println("Пойду на обед к 2")
+    }
+    override fun goHome(){
+        println("Останусь пока не выполню задачу")
+    }
+}
+//досюда
+
+
+}
+
+
